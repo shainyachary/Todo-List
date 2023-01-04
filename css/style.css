@@ -120,7 +120,7 @@ html{
 @media screen and (max-width:480px)
 {
     .container{
-        width: 300px;
+        width: 400px;
         margin-top: 6rem;
     }
     .text h2{
