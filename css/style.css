@@ -77,20 +77,32 @@ html{
     overflow-y: auto;
     margin-bottom: 1rem;
 }
-#taskList .task{
+#taskList li{
     position: relative;
     list-style-type: none;
+    line-height: 1rem;
     font-family: 'Yeon Sung', cursive;
     margin-bottom: 0.8rem;
     background: #e2dbdb;
     box-shadow: 0 2px 5px #333;
     border-radius: 3px;
-    padding: 10px 15px;
+    padding: 10px 30px;
     cursor: default;
     overflow: hidden;
     word-wrap: break-word;
 }
-#taskList .task .icon{
+#taskList li.checked{
+    text-decoration: line-through;
+    color:#888;
+}
+#taskList li.checked::before{
+    content: '\f00c';
+    font-family: 'fontawesome';
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+#taskList li .icon{
     position: absolute;
     right: -45px;
     top: 50%;

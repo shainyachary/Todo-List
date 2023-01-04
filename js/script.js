@@ -18,3 +18,11 @@ function removeTask(id)
 {
     document.getElementById('task'+id).remove();
 }
+var list = document.querySelector('ul');
+list.addEventListener('click',(e)=>
+{
+    if(e.target.tagName === 'LI')
+    {
+        e.target.classList.toggle('checked');
+    }
+}, false);
