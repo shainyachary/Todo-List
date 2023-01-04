@@ -121,6 +121,7 @@ html{
 {
     .container{
         width: 350px;
+        height: 350px;
         background-color: #fff;
         margin-top: 6rem;
     }
