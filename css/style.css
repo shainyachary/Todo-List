@@ -75,7 +75,7 @@ html{
     height: 250px;
     margin-top: 1.5rem;
     overflow-y: auto;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
 }
 #taskList .task{
     position: relative;
